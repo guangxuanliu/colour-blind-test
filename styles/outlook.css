@@ -20,7 +20,7 @@ body{
 .win{
     font-size: 6em;
     text-align: center;
-    margin-top: 50%;
+    margin-top: 20%;
 }
 .red{
     color:red;
@@ -60,6 +60,11 @@ body{
         width: 20vw;
         height: 30vw;
         border:2px solid #fff;
+    }
+    .win{
+        font-size: 6em;
+        text-align: center;
+        margin-top: 50%;
     }
 }
 

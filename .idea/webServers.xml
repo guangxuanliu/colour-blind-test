@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c0526825-ff59-4490-ba8e-4eae18547e40" name="liuguangxuan.tk" url="http://104.224.129.85">
+        <fileTransfer host="104.224.129.85" port="26593" rootFolder="/root" accessType="SFTP" password="dfdadfe4dffbdf9fdfecdfdcdfcfdfdedff9dfe2df9ddfcb" username="root">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="26593" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

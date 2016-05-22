@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="liuguangxuan.tk" uploadOnCheckin="c0526825-ff59-4490-ba8e-4eae18547e40">
+    <serverData>
+      <paths name="liuguangxuan.tk">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/game/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="liuguangxuan.tk" />
+  </component>
+</project>

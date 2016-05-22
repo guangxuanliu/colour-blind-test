@@ -4,9 +4,10 @@
 
 
 var score = 0;      //总得分
-var limitTime =60;  //时间限制
+var limitTime =6;  //时间限制
 var changeNum = 20; //每次改变的颜色值大小
 var count = 0;
+var isEnd = false;     //是否结束
 
 
 //点击了正确的色块
@@ -20,6 +21,13 @@ main.addEventListener("click",function (event) {
         score += 40 - changeNum;
 
         console.log(changeNum);
+    }
+});
+
+//游戏结束后点击body区域重新开始
+document.addEventListener("click",function (event) {
+    if(isEnd){
+        change();
     }
 });
 
