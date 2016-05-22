@@ -1,0 +1,120 @@
+body{
+    padding: 0;
+    margin:0;
+}
+#main{
+    margin: 0 auto;
+    text-align: center;
+}
+#main table{
+    margin:0 auto;
+    text-align: center;
+}
+#main table tr{
+    width:100%;
+}
+
+.score{
+    color:red;
+}
+.win{
+    font-size: 6em;
+    text-align: center;
+    margin-top: 50%;
+}
+.red{
+    color:red;
+}
+
+
+/* 电脑 */
+@media all and (min-width: 1200px) {
+    #main table td{
+        width: 100px;
+        height: 100px;
+        border:2px solid #fff;
+    }
+
+
+}
+
+/* 小屏幕 */
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+    #main table{
+        width:70%;
+    }
+    #main table td{
+        width:20vw;
+        height: 20vw;
+        border:2px solid #fff;
+    }
+
+}
+
+/* 平板 */
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    #main table{
+        width:100%;
+    }
+    #main table td {
+        width: 20vw;
+        height: 30vw;
+        border:2px solid #fff;
+    }
+}
+
+/* 手机 */
+@media all and (min-width: 320px) and (max-width: 768px) {
+    #main table{
+        width:100%;
+    }
+    #main table td {
+        width: 20vw;
+        height: 20vw;
+        border:2px solid #fff;
+    }
+}
+
+/* 尺寸小于 320px */
+@media all and (max-width: 320px) {
+    #main table{
+        width:100%;
+    }
+    #main table td{
+        width: 20vw;
+        height: 20vw;
+        border:1px solid #fff;
+    }
+}
+@media screen and (orientation: portrait) {
+    #time{
+        text-align: center;
+        font-size: 6em;
+        margin:10%;
+        color: red;
+    }
+}
+
+
+/* 横屏时的样式 */
+@media screen and (orientation:landscape){
+    #time{
+        text-align: center;
+        font-size: 4em;
+        margin:2%;
+        color: red;
+    }
+    .red{
+        color:green;
+    }
+    @media all and (min-width: 768px) and (max-width: 1024px) {
+        #main table{
+            width:100%;
+        }
+        #main table td {
+            width: 20vw;
+            height: 10vw;
+            border:2px solid #fff;
+        }
+    }
+}
