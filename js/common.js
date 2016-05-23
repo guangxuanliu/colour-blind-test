@@ -4,7 +4,7 @@
 
 
 var score = 0;      //总得分
-var limitTime =6;  //时间限制
+var limitTime =60;  //时间限制
 var changeNum = 20; //每次改变的颜色值大小
 var count = 0;
 var isEnd = false;     //是否结束
