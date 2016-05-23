@@ -27,7 +27,7 @@ main.addEventListener("click",function (event) {
 //游戏结束后点击body区域重新开始
 document.addEventListener("click",function (event) {
     if(isEnd){
-        change();
+        location.reload();
     }
 });
 
@@ -53,6 +53,7 @@ var controlTime = setInterval(function () {
         document.body.removeChild(document.getElementById("main"));
         document.body.appendChild(node);
         clearInterval(controlTime);
+        isEnd = true;
     }
 },1000);
 
